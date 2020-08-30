@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="61" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="61" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+      <class name="task1.ArrayCheckerTest">
+        <test-method status="PASS" signature="prepareData()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="prepareData" is-config="true" duration-ms="8" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareData -->
+        <test-method status="PASS" signature="shouldShowAllIntegersDifferent()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowAllIntegersDifferent" duration-ms="1" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowAllIntegersDifferent -->
+        <test-method status="PASS" signature="shouldShowAllPersonDifferent()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowAllPersonDifferent" duration-ms="1" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowAllPersonDifferent -->
+        <test-method status="PASS" signature="shouldShowAllStringsDifferent()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowAllStringsDifferent" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowAllStringsDifferent -->
+        <test-method status="PASS" signature="shouldShowCopies()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowCopies" duration-ms="1" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowCopies -->
+        <test-method status="PASS" signature="shouldShowIntegerCopies()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowIntegerCopies" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowIntegerCopies -->
+        <test-method status="PASS" signature="shouldShowPersonCopies()[pri:0, instance:task1.ArrayCheckerTest@5622fdf]" name="shouldShowPersonCopies" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldShowPersonCopies -->
+      </class> <!-- task1.ArrayCheckerTest -->
+      <class name="task2.ProductionReadyTaskTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="intialize" is-config="true" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" finished-at="2020-08-29T22:29:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="2" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="1" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="1" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[350000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-150000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+        <test-method status="PASS" signature="shouldAddTwoToFour(int, int, int)[pri:0, instance:task2.ProductionReadyTaskTest@4883b407]" name="shouldAddTwoToFour" duration-ms="0" started-at="2020-08-29T22:29:04 MSK" data-provider="numbers" finished-at="2020-08-29T22:29:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-150000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-150000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-300000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddTwoToFour -->
+      </class> <!-- task2.ProductionReadyTaskTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

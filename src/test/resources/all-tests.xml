@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API tests" verbose="1">
+
+    <test name="jsonplaceholder Tests">
+        <classes>
+            <class name="jsonplaceholderTests.Jsonplaceholder"/>
+            <class name="task1.ArrayCheckerTest"/>
+            <class name="task2.ProductionReadyTaskTest"/>
+        </classes>
+    </test>
+
+</suite>
